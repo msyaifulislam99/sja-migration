@@ -1,22 +1,25 @@
 'use strict';
-const excelToJson = require('convert-excel-to-json');
-
+const tbl_penerimaandet = require('./json/tbl_penerimaandet.json');
+const _ = require('lodash');
 const fs = require('fs');
 
-const result = excelToJson({
-  sourceFile: './excels/tbl_pallet.xlsx',
-  columnToKey: {
-    A: 'current_id',
-    B: 'number',
-    C: 'weight'
-	}
+// filter pallet
+const result = _.uniqBy(tbl_penerimaandet, function (e) {
+  return e.pallet_number;
 });
-console.log(result);
 
-let i = 1;
-for (const item of result.tbl_pallet || []) {
-  item['expected_id'] = i;
-  i++;
+const pallet = [];
+let expected_id = 1;
+for (const item of result || []) {
+  const temp = {
+    expected_id,
+    number: item.pallet_number || '',
+    weight: item.pallet_weight || 0,
+    status: 'ready',
+  };
+  pallet.push(temp);
+  expected_id++;
 }
-let data = JSON.stringify(result.tbl_pallet);
+
+let data = JSON.stringify(pallet);
 fs.writeFileSync('json/pallets.json', data);
