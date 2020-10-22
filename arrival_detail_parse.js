@@ -12,6 +12,7 @@ for (const item of tbl_penerimaan || []) {
   const pallet = _.find(pallets, function(s) { return s.number == item.pallet_number; });
   const temp = {
     expected_id,
+    current_id: item.current_id,
     arrival_id: arrival.expected_id,
     pallet_id:  pallet.expected_id,
     pallet_number: pallet.number,
