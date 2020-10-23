@@ -15,7 +15,7 @@ for (const item of result || []) {
     expected_id,
     number: item.pallet_number || '',
     weight: item.pallet_weight || 0,
-    status: 'ready',
+    status: 'being_used',
   };
   pallet.push(temp);
   expected_id++;
