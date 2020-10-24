@@ -7,6 +7,6 @@ const fs = require('fs');
 const file = fs.createWriteStream(`queries/suppliers_query.txt`);
 for (const item of data || []) {
   file.write(
-    `insert into suppliers ('name', 'address') values ('${item.name}','${item.address}'); \n`
+    `insert into suppliers (name,address) values ('${item.name}','${item.address}'); \n`
   );
 }
