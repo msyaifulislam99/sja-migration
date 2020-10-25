@@ -7,15 +7,6 @@ const fs = require('fs');
 
 const arrival = [];
 let expected_id = 1;
-// const satu = tbl_penerimaan[9];
-// const ingredient = _.find(ingredients, function(o) { return o.code == satu.ingredient; });
-// const supplier = _.find(suppliers, { 'name': satu.supplier_name, 'address': satu.supplier_address });
-// // const supplier = _.find(suppliers, function(s) { return s.name == satu.supplier_name && s.address == satu.supplier_address; });
-// console.log(satu, 'item');
-// console.log(ingredient, 'ingredient');
-// console.log(supplier, 'supplier');
-// console.log(tbl_penerimaan[6]);
-// console.log(ingredient, supplier);
 for (const item of tbl_penerimaan || []) {
   const ingredient = _.find(ingredients, function(o) { return o.code == item.ingredient; });
   const supplier = _.find(suppliers, function(s) { return s.name == item.supplier_name && s.address == item.supplier_address; });

@@ -1,0 +1,13 @@
+insert into ingredients (code,name,description,status) values ('Gula','Gula','-','active'); 
+insert into grades (grade,description) values ('G3','Gula Grade G3'); 
+insert into grades (grade,description) values ('G2','Gula Grade G2'); 
+insert into grades (grade,description) values ('G1','Gula Grade G1'); 
+insert into suppliers (name,address) values ('BMM','JKT'); 
+insert into suppliers (name,address) values ('MT','MAKASSAR'); 
+insert into suppliers (name,address) values ('BMM','MEDAN'); 
+insert into suppliers (name,address) values ('PDSU','MEDAN'); 
+insert into suppliers (name,address) values ('BMM','NEDAN'); 
+insert into suppliers (name,address) values ('MT','MAKASAR'); 
+insert into suppliers (name,address) values ('DUS','MEDAN'); 
+insert into suppliers (name,address) values ('MSI AF','MEDAN'); 
+insert into suppliers (name,address) values ('MSI','MEDAN'); 
