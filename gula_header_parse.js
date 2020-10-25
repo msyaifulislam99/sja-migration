@@ -15,6 +15,7 @@ for (const item of tbl_gula_header || []) {
   const susut_status = (item.susut_status && item.susut_status == 1) ? 'decrease' : 'sampling';
   const temp = {
     expected_id,
+    current_id: item.current_id,
     arrival_at: item.tgl_masuk,
     license_plate: item.no_kendaraan || '',
     po_number: item.no_po || '',
