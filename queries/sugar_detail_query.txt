@@ -1966,3 +1966,4 @@ insert into sugar_details (sugar_header_id,pallet_id,pallet_number,bag_amount,br
 insert into sugar_details (sugar_header_id,pallet_id,pallet_number,bag_amount,brutto,weighed_at,pallet_weight,netto) values (2018,1570,'28156',50,2614.5,'2020-10-07T02:56:50.000Z',107.5,2507); 
 insert into sugar_details (sugar_header_id,pallet_id,pallet_number,bag_amount,brutto,weighed_at,pallet_weight,netto) values (2019,1571,'24127',50,2624,'2020-10-08T02:34:49.000Z',115.5,2508.5); 
 insert into sugar_details (sugar_header_id,pallet_id,pallet_number,bag_amount,brutto,weighed_at,pallet_weight,netto) values (2020,1572,'10365',50,2623.5,'2020-10-08T07:03:56.000Z',113,2510.5); 
+insert into sugar_details (sugar_header_id,pallet_id,pallet_number,bag_amount,brutto,weighed_at,pallet_weight,netto) values (2067,1560,'22586',50,2607,'2020-10-19T02:07:43.000Z',97.5,2509.5); 
