@@ -1312,4 +1312,12 @@
 {"expected_id":1312,"code":"06KD200619","name":"06KD200619","status":"active"},
 {"expected_id":1313,"code":"07BM200926","name":"07BM200926","status":"active"},
 {"expected_id":1314,"code":"06SB200808","name":"06SB200808","status":"active"},
-{"expected_id":1315,"code":"SW-4","name":"SW-4","status":"active"}]
+{"expected_id":1315,"code":"SW-4","name":"SW-4","status":"active"},
+{"expected_id":1316,"code":"08YS200122","name":"08YS200122","status":"active"},
+{"expected_id":1317,"code":"07KD201026","name":"07KD201026","status":"active"},
+{"expected_id":1318,"code":"07BM201026","name":"07BM201026","status":"active"},
+{"expected_id":1319,"code":"12SB201015","name":"12SB201015","status":"active"},
+{"expected_id":1320,"code":"06DM201027","name":"06DM201027","status":"active"},
+{"expected_id":1321,"code":"12SB201007","name":"12SB201007","status":"active"},
+{"expected_id":1322,"code":"07KD201027","name":"07KD201027","status":"active"},
+{"expected_id":1323,"code":"12DM201010","name":"12DM201010","status":"active"}]

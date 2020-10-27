@@ -1313,3 +1313,11 @@ insert into ingredients (code,name,description,status) values ('06KD200619','06K
 insert into ingredients (code,name,description,status) values ('07BM200926','07BM200926','-','active'); 
 insert into ingredients (code,name,description,status) values ('06SB200808','06SB200808','-','active'); 
 insert into ingredients (code,name,description,status) values ('SW-4','SW-4','-','active'); 
+insert into ingredients (code,name,description,status) values ('08YS200122','08YS200122','-','active'); 
+insert into ingredients (code,name,description,status) values ('07KD201026','07KD201026','-','active'); 
+insert into ingredients (code,name,description,status) values ('07BM201026','07BM201026','-','active'); 
+insert into ingredients (code,name,description,status) values ('12SB201015','12SB201015','-','active'); 
+insert into ingredients (code,name,description,status) values ('06DM201027','06DM201027','-','active'); 
+insert into ingredients (code,name,description,status) values ('12SB201007','12SB201007','-','active'); 
+insert into ingredients (code,name,description,status) values ('07KD201027','07KD201027','-','active'); 
+insert into ingredients (code,name,description,status) values ('12DM201010','12DM201010','-','active'); 
