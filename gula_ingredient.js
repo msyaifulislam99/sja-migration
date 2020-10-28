@@ -7,7 +7,7 @@ var filtered = _.uniqBy(tbl_gula_header, function (e) {
   return e.nama_bahan;
 });
 const ingredients = [];
-let expected_id = 1316;
+let expected_id = 1324;
 for (const item of filtered || []) {
   const temp = {
     expected_id,
