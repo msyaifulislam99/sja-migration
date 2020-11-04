@@ -1347,3 +1347,5 @@ insert into ingredients (code,name,description,status) values ('07BM201103','07B
 insert into ingredients (code,name,description,status) values ('06DM201103','06DM201103','-','active'); 
 insert into ingredients (code,name,description,status) values ('07HL201103','07HL201103','-','active'); 
 insert into ingredients (code,name,description,status) values ('10SM201103','10SM201103','-','active'); 
+insert into ingredients (code,name,description,status) values ('12SB201023','12SB201023','-','active'); 
+insert into ingredients (code,name,description,status) values ('07HL201104','07HL201104','-','active'); 

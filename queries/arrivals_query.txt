@@ -7970,3 +7970,18 @@ insert into arrivals (license_plate,arrival_at,lot_number,ingredient_id,supplier
 insert into arrivals (license_plate,arrival_at,lot_number,ingredient_id,supplier_id,user_id,water_content,no_surat_jalan) values ('L 8138 UB','2020-11-03','K200145',1349,51,1,11.5,'50/SCO/X/2020'); 
 insert into arrivals (license_plate,arrival_at,lot_number,ingredient_id,supplier_id,user_id,water_content,no_surat_jalan) values ('L 9132 UX','2020-11-03','K200145',1349,51,1,10.6,'49/SCO/X/2020'); 
 insert into arrivals (license_plate,arrival_at,lot_number,ingredient_id,supplier_id,user_id,water_content,no_surat_jalan) values ('B 9779 PEI','2020-11-03','K200169',1348,107,1,11.9,'258/BTS/XI/2020'); 
+insert into arrivals (license_plate,arrival_at,lot_number,ingredient_id,supplier_id,user_id,water_content,no_surat_jalan) values ('W 9079 NE','2020-11-03','S',104,15,1,0,''); 
+insert into arrivals (license_plate,arrival_at,lot_number,ingredient_id,supplier_id,user_id,water_content,no_surat_jalan) values ('W','2020-11-03','S',103,15,1,0,''); 
+insert into arrivals (license_plate,arrival_at,lot_number,ingredient_id,supplier_id,user_id,water_content,no_surat_jalan) values ('AG 8377 DD','2020-11-04','S201603',2,44,1,10.9,'S9/10/2020-5'); 
+insert into arrivals (license_plate,arrival_at,lot_number,ingredient_id,supplier_id,user_id,water_content,no_surat_jalan) values ('L 8658 UF','2020-11-04','K200135',1342,24,1,10.4,'13/SJBTB/1B4/XI/2020'); 
+insert into arrivals (license_plate,arrival_at,lot_number,ingredient_id,supplier_id,user_id,water_content,no_surat_jalan) values ('L 8658-UF','2020-11-04','K200135',1350,24,1,10.4,'13/SJBTB/1B4/XI/2020'); 
+insert into arrivals (license_plate,arrival_at,lot_number,ingredient_id,supplier_id,user_id,water_content,no_surat_jalan) values ('L 9492 UL','2020-11-04','K200135',1350,24,1,10.6,'15/SJBTB/1B4/XI/2020'); 
+insert into arrivals (license_plate,arrival_at,lot_number,ingredient_id,supplier_id,user_id,water_content,no_surat_jalan) values ('L 9897 UL','2020-11-04','K200135',1350,24,1,11.8,'14/SJBTB/1B4/XI/2020'); 
+insert into arrivals (license_plate,arrival_at,lot_number,ingredient_id,supplier_id,user_id,water_content,no_surat_jalan) values ('L 8837 UU','2020-11-04','K200118',974,24,1,10.7,'18/SJBTB/1B4/XI/2020'); 
+insert into arrivals (license_plate,arrival_at,lot_number,ingredient_id,supplier_id,user_id,water_content,no_surat_jalan) values ('L 8874 UW','2020-11-04','K200135',1350,24,1,11.9,'16/SJBTB/1B4/XI/2020'); 
+insert into arrivals (license_plate,arrival_at,lot_number,ingredient_id,supplier_id,user_id,water_content,no_surat_jalan) values ('L 8734 UJ','2020-11-04','K200118',974,24,1,11.2,'17/SJBTB/1B4/XI/2020'); 
+insert into arrivals (license_plate,arrival_at,lot_number,ingredient_id,supplier_id,user_id,water_content,no_surat_jalan) values ('B 9048 PEH','2020-11-04','K200169',1351,107,1,11.9,'259/BTS/XI/2020'); 
+insert into arrivals (license_plate,arrival_at,lot_number,ingredient_id,supplier_id,user_id,water_content,no_surat_jalan) values ('L','2020-11-04','K200056',1254,15,1,0,''); 
+insert into arrivals (license_plate,arrival_at,lot_number,ingredient_id,supplier_id,user_id,water_content,no_surat_jalan) values ('B 9475 PEH','2020-11-04','K200169',1351,107,1,11.9,'260/BTS/XI/2020'); 
+insert into arrivals (license_plate,arrival_at,lot_number,ingredient_id,supplier_id,user_id,water_content,no_surat_jalan) values ('L 8874 UW','2020-11-04','K2000080',848,15,1,0,''); 
+insert into arrivals (license_plate,arrival_at,lot_number,ingredient_id,supplier_id,user_id,water_content,no_surat_jalan) values ('L 8874 UW','2020-07-23','K200080',848,15,1,0,''); 
