@@ -9,7 +9,7 @@ var filtered = _.uniqBy(tbl_gula_header, function (e) {
 });
 const ingredients = [];
 let current_max_id = _.maxBy(current_ingredient, 'expected_id');
-let expected_id = current_max_id + 1;
+let expected_id = current_max_id.expected_id + 1;
 for (const item of filtered || []) {
   const temp = {
     expected_id,
