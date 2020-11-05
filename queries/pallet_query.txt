@@ -13156,3 +13156,8 @@ insert into pallets (number,weight,status) values ('015722',128.5, 'being_used')
 insert into pallets (number,weight,status) values ('0015722',128.5, 'being_used'); 
 insert into pallets (number,weight,status) values ('24928',103, 'being_used'); 
 insert into pallets (number,weight,status) values ('14979',113.5, 'being_used'); 
+insert into pallets (number,weight,status) values ('010116',100, 'being_used'); 
+insert into pallets (number,weight,status) values ('25545',99.5, 'being_used'); 
+insert into pallets (number,weight,status) values ('15880',120.5, 'being_used'); 
+insert into pallets (number,weight,status) values ('15092',107.5, 'being_used'); 
+insert into pallets (number,weight,status) values ('019113',110, 'being_used'); 
