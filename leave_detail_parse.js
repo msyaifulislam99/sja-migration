@@ -15,7 +15,7 @@ for (const item of leave_filter_deteled || []) {
   const pallet = _.find(pallets, function(s) { return s.number == item.no_pallet; });
   const deleted_from_arrival = _.find(arrival_deleted, function(o) { return o.current_id == item.id_penerimaandet; });
   const detail_arrival = _.find(detail_arrivals, function(s) { return s.current_id == item.id_penerimaandet; });
-  console.log(item, pallet, deleted_from_arrival, detail_arrival, 'asu');
+  // console.log(item, pallet, deleted_from_arrival, detail_arrival, 'asu');
   if (!deleted_from_arrival) {
     const temp = {
       expected_id,

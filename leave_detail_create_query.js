@@ -14,8 +14,8 @@ for (const item of data || []) {
   );
   const index_ad = _.findIndex(detail_arrivals, function(o) { return o.expected_id == item.detail_arrival_id; });
   const index_p = _.findIndex(pallets, function(p) { return p.number == item.pallet_number; });
-  console.log(detail_arrivals[index_ad], item.detail_arrival_id, 'ad');
-  console.log(pallets[index_p], index_p, 'p');
+  // console.log(detail_arrivals[index_ad], item.detail_arrival_id, 'ad');
+  // console.log(pallets[index_p], index_p, 'p');
   const current_leave_amount = detail_arrivals[index_ad].leave_amount || 0
   const leave_amount = current_leave_amount + item.bag_amount;
   // console.log(current_leave_amount, leave_amount, 'ahaha');
