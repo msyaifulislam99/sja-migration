@@ -1966,4 +1966,10 @@
 {"expected_id":1966,"sugar_header_id":2018,"pallet_id":1570,"pallet_number":"28156","bag_amount":50,"brutto":2614.5,"weighed_at":"2020-10-07T02:56:50.000Z","pallet_weight":107.5,"netto":2507},
 {"expected_id":1967,"sugar_header_id":2019,"pallet_id":1571,"pallet_number":"24127","bag_amount":50,"brutto":2624,"weighed_at":"2020-10-08T02:34:49.000Z","pallet_weight":115.5,"netto":2508.5},
 {"expected_id":1968,"sugar_header_id":2020,"pallet_id":1572,"pallet_number":"10365","bag_amount":50,"brutto":2623.5,"weighed_at":"2020-10-08T07:03:56.000Z","pallet_weight":113,"netto":2510.5},
-{"expected_id":1969,"sugar_header_id":2067,"pallet_id":1560,"pallet_number":"22586","bag_amount":50,"brutto":2607,"weighed_at":"2020-10-19T02:07:43.000Z","pallet_weight":97.5,"netto":2509.5}]
+{"expected_id":1969,"sugar_header_id":2067,"pallet_id":1560,"pallet_number":"22586","bag_amount":50,"brutto":2607,"weighed_at":"2020-10-19T02:07:43.000Z","pallet_weight":97.5,"netto":2509.5},
+{"expected_id":1970,"sugar_header_id":2068,"pallet_id":1573,"pallet_number":"2003","bag_amount":50,"brutto":2625.5,"weighed_at":"2020-10-30T01:52:54.000Z","pallet_weight":105,"netto":2520.5},
+{"expected_id":1971,"sugar_header_id":2069,"pallet_id":1574,"pallet_number":"15705","bag_amount":50,"brutto":2600.5,"weighed_at":"2020-10-30T02:12:07.000Z","pallet_weight":107.5,"netto":2493},
+{"expected_id":1972,"sugar_header_id":2070,"pallet_id":1575,"pallet_number":"14446","bag_amount":50,"brutto":2614.5,"weighed_at":"2020-10-30T02:40:54.999Z","pallet_weight":101,"netto":2513.5},
+{"expected_id":1973,"sugar_header_id":2071,"pallet_id":1451,"pallet_number":"343","bag_amount":50,"brutto":2612,"weighed_at":"2020-10-30T02:48:16.000Z","pallet_weight":100,"netto":2512},
+{"expected_id":1974,"sugar_header_id":2071,"pallet_id":744,"pallet_number":"10754","bag_amount":50,"brutto":2629.5,"weighed_at":"2020-10-30T02:56:24.000Z","pallet_weight":118,"netto":2511.5},
+{"expected_id":1975,"sugar_header_id":2072,"pallet_id":1576,"pallet_number":"8225","bag_amount":50,"brutto":2648.5,"weighed_at":"2020-10-30T03:24:22.000Z","pallet_weight":135.5,"netto":2513}]

@@ -1570,3 +1570,7 @@ insert into sugar_pallets (number,weight,status) values ('24837',108, 'ready');
 insert into sugar_pallets (number,weight,status) values ('28156',107.5, 'ready'); 
 insert into sugar_pallets (number,weight,status) values ('24127',115.5, 'ready'); 
 insert into sugar_pallets (number,weight,status) values ('10365',113, 'ready'); 
+insert into sugar_pallets (number,weight,status) values ('2003',105, 'ready'); 
+insert into sugar_pallets (number,weight,status) values ('15705',107.5, 'ready'); 
+insert into sugar_pallets (number,weight,status) values ('14446',101, 'ready'); 
+insert into sugar_pallets (number,weight,status) values ('8225',135.5, 'ready'); 
