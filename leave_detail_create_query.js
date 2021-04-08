@@ -14,11 +14,11 @@ for (const item of data || []) {
   );
   const index_ad = _.findIndex(detail_arrivals, function(o) { return o.expected_id == item.detail_arrival_id; });
   const index_p = _.findIndex(pallets, function(p) { return p.number == item.pallet_number; });
-  // console.log(detail_arrivals[index_ad], item.detail_arrival_id, 'ad');
-  // console.log(pallets[index_p], index_p, 'p');
-  const current_leave_amount = detail_arrivals[index_ad].leave_amount || 0
+
+  const current_leave_amount = detail_arrivals[index_ad].leave_amount || 0  
   const leave_amount = current_leave_amount + item.bag_amount;
-  // console.log(current_leave_amount, leave_amount, 'ahaha');
+  
+  
   let detail_arrival_status = 'partial';
   let pallet_status = 'being_used';
 
@@ -28,9 +28,10 @@ for (const item of data || []) {
   }
 
   detail_arrivals[index_ad].status = detail_arrival_status;
+  detail_arrivals[index_ad].leave_amount = leave_amount;
   pallets[index_p].status = pallet_status;
   file.write(
-    `UPDATE detail_arrivals SET status = '${detail_arrivals[index_ad].status}' WHERE id = ${detail_arrivals[index_ad].expected_id}; \n`
+    `UPDATE detail_arrivals SET leave_amount=${leave_amount}, status = '${detail_arrivals[index_ad].status}' WHERE id = ${detail_arrivals[index_ad].expected_id}; \n`
   );
   file.write(
     `UPDATE pallets SET status = '${pallets[index_p].status}' WHERE id = ${pallets[index_p].expected_id}; \n`
